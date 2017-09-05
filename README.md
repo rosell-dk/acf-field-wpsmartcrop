@@ -1,4 +1,17 @@
-# ACF Field Type Template
+# ACF Field WP SmartCrop
+
+This Wordpress plugin is a new "Image with focal point for cropping" Field Type for Advanced Custom Fields. The user can select an image and mark the most important part of the image with a focal point. All thumbnails that are set to be cropped in Wordpress will be cropped with respect to that focal point, using WP SmartCrop. You have to have that plugin installed.
+
+I have only implemented the ACF v5 hooks. So it does not work in ACF v4. It will not take much efford to do, though.
+
+The field was made with a standard template. The rest of this README is the remains of that template. The plugin generally needs to be cleaned up from remains of the template. 
+
+
+
+
+
+
+# Type Template
 
 Welcome to the Advanced Custom Fields field type template repository.
 Here you will find a starter-kit for creating a new ACF field type. This starter-kit will work as a normal WP plugin.
@@ -6,18 +19,6 @@ Here you will find a starter-kit for creating a new ACF field type. This starter
 For more information about creating a new field type, please read the following article:
 http://www.advancedcustomfields.com/resources/tutorials/creating-a-new-field-type/
 
-### Structure
-
-* `/assets`:  folder for all asset files.
-* `/assets/css`:  folder for .css files.
-* `/assets/images`: folder for image files
-* `/assets/js`: folder for .js files
-* `/fields`:  folder for all field class files.
-* `/fields/wpsmartcrop-v5.php`: Field class compatible with ACF version 5 
-* `/fields/wpsmartcrop-v4.php`: Field class compatible with ACF version 4
-* `/lang`: folder for .pot, .po and .mo files
-* `acf-wpsmartcrop.php`: Main plugin file that includes the correct field file based on the ACF version
-* `readme.txt`: WordPress readme file to be used by the WordPress repository
 
 ### step 1.
 
