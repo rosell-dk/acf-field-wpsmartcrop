@@ -1,6 +1,6 @@
 === Advanced Custom Fields: WP SmartCrop Field ===
 Contributors: Bjørn Rosell
-Tags: PLUGIN_TAGS
+Tags: ACF, cropping, responsive, images
 Requires at least: 3.5
 Tested up to: 3.8.1
 Stable tag: trunk
@@ -17,7 +17,6 @@ EXTENDED_DESCRIPTION
 
 This ACF field type is compatible with:
 * ACF 5
-* ACF 4
 
 == Installation ==
 
