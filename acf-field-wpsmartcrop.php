@@ -4,7 +4,7 @@
 Plugin Name: Advanced Custom Fields: WP SmartCrop
 Plugin URI: https://www.bitwise-it.dk/
 Description: An ACF image field with cropping based on a focal point. - For responsive images
-Version: 1.0.0
+Version: 1.0.1
 Author: Bjørn Rosell
 Author URI: https://www.bitwise-it.dk/contact
 License: GPLv2 or later

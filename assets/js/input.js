@@ -1,48 +1,9 @@
 (function($){
-	
-	
+
 	function initialize_field( $el ) {
 
-/*
-      var frame = new wp.media.view.MediaFrame.ImageDetails({
-        title: 'Test',
-        multiple: false,
-        button: {
-          text: 'bla'
-        },
-        attachment_id: 167
-      });
-      frame.open();
-*/
-/*
-			var frame = wp.media.frames.frame = wp.media({
-				title: 'Select Image',
-				button: { text: 'Select' },
-        multiple: false,
-        library: {
-            type: 'image',
-        },
-        frame: 'edit-attachments'
-			});
-      frame.open();
-*/
-
-
-
-/*
-      var frame = new wp.media.view.Attachment({
-        title: 'Test',
-        multiple: false,
-        button: {
-          text: 'bla'
-        },
-        attachment_id: 167
-      });
-      frame.open();
-*/
-//wp.media.view.MediaFrame.ImageDetails
-
     function updateFocalCoords(top, left) {
+
       if (arguments.length == 0) {
         left = $el.find('.focal-left').val();
         top = $el.find('.focal-top').val();
@@ -77,9 +38,9 @@
       }
     }
 
-    $horizontal = $('<div></div>').addClass('horizontal');
-    $vertical = $('<div></div>').addClass('vertical');
-    $coordsInfo = $('<div></div>').addClass('focal-coords-info');
+    var $horizontal = $('<div></div>').addClass('horizontal');
+    var $vertical = $('<div></div>').addClass('vertical');
+    var $coordsInfo = $('<div></div>').addClass('focal-coords-info');
 
     $el.find('.the-image-wrap').append($horizontal).append($vertical).append($coordsInfo);
 
@@ -127,9 +88,9 @@
 
         // Perhaps we can get the attachment meta data like this: ?
         // https://wordpress.stackexchange.com/questions/181000/get-attachment-image-info-in-js
-        console.log(frame);
-        console.log(frame.state());
-        console.log(attachment);
+//        console.log(frame);
+//        console.log(frame.state());
+//        console.log(attachment);
 
 			  // Update image
         $el.find('.the-image').attr('src', attachment.sizes['full'].url);
